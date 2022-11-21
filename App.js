@@ -28,12 +28,14 @@ export default function App() {
             options={{
               title: "Home",
               headerStyle: {
-                backgroundColor: '#f4511e',
+                backgroundColor: '#F0F0F0',
               },
-              headerTintColor: '#fff',
+              headerTintColor: '#000',
               headerTitleStyle: {
-                fontWeight: 'bold'
+                fontWeight: 'bold',
+                color: "#000000"
               },
+              headerTitleAlign: 'center'
             }}
           />
           <Stack.Screen
@@ -41,12 +43,14 @@ export default function App() {
             component={EducationScreen}
             options={{
               headerStyle: {
-                backgroundColor: '#f4511e',
+                backgroundColor: '#F0F0F0',
               },
-              headerTintColor: '#fff',
+              headerTintColor: '#000',
               headerTitleStyle: {
-                fontWeight: 'bold'
+                fontWeight: 'bold',
+                color: "#000000"
               },
+              headerTitleAlign: 'center'
             }}
           />
           <Stack.Screen
@@ -54,12 +58,14 @@ export default function App() {
             component={DetailsScreen}
             options={{
               headerStyle: {
-                backgroundColor: '#f4511e',
+                backgroundColor: '#F0F0F0',
               },
-              headerTintColor: '#fff',
+              headerTintColor: '#000',
               headerTitleStyle: {
                 fontWeight: 'bold',
+                color: "#000000"
               },
+              headerTitleAlign: 'center'
             }}
           // initialParams={{ itemId: 42 }}
           />
@@ -68,12 +74,14 @@ export default function App() {
             component={Content}
             options={{
               headerStyle: {
-                backgroundColor: '#f4511e',
+                backgroundColor: '#F0F0F0',
               },
-              headerTintColor: '#fff',
+              headerTintColor: '#000',
               headerTitleStyle: {
                 fontWeight: 'bold',
+                color: "#000000"
               },
+              headerTitleAlign: 'center'
             }}
           // initialParams={{ itemId: 42 }}
           />

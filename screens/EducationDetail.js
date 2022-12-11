@@ -25,7 +25,7 @@ function EducationDetail({ route, navigation }) {
                                 index={index}
                             />
                         ))) : (
-                            <Text>vay amk</Text>
+                            <Text>Okay</Text>
                         )
                 }
             </Wrap>

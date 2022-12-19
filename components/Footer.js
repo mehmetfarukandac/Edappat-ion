@@ -18,7 +18,7 @@ const Footer = () => (
     >
         <FAB
             icon={props => <Icon name="plus" {...props} />}
-            style={{ backgroundColor: "#EB9900",  position: "absolute", top: -28, alignSelf: "center" }}
+            style={{ backgroundColor: "#EB9900", position: "absolute", top: -28, alignSelf: "center" }}
         />
     </AppBar>
 );
